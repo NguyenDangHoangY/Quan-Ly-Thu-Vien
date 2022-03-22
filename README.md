@@ -3,4 +3,4 @@
  
  Giao diện console:
  
-<img width="412" alt="image" src="https://user-images.githubusercontent.com/80016805/159409993-78437319-617e-4133-bc54-a0d1309c36ed.png">
+<img width="385" alt="image" src="https://user-images.githubusercontent.com/80016805/159412069-2ab0b833-ea5f-400d-a8f9-d563ed14283d.png">
