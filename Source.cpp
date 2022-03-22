@@ -92,7 +92,7 @@ void menu(children *listchildren[], notchild *listnotchild[], int n, int m)
 	do
 	{
 		system("cls");
-		cout << " " << " \n\  Hello! Please choose what you want!" << " \n\nA-Children" << "\n\t1: Add a litle guys hiring books" << "\n\t2: Arrange the list" <<
+		cout << " " << " \n\  Hello! please choose one of the following options:" << " \n\nA-Children" << "\n\t1: Add a litle guys hiring books" << "\n\t2: Arrange the list" <<
 			"\n\t3: Show the litle guys list"
 			<< " \n\nB-Grown-up people" << "\n\t4: Add a grown-up hiring books" << "\n\t5: Arrange the list" << "\n\t6: Show the grown-up list" <<
 			"\n\n0: EXIT." << "\n\n\ Yeah i'm waiting, and so happy to serve you: " << "\t";
@@ -112,12 +112,14 @@ void menu(children *listchildren[], notchild *listnotchild[], int n, int m)
 		}
 		if (g == 3)
 		{
-			cout << "\n\tInformation of listchildren:";
+			cout << "\n\tInformation of Children list:";
 			for (int l = 0; l < n; l++)
 			{
 				cout << "\n\t" << l + 1 << ".";
 				listchildren[l]->xuatchild();
+				cout << "\n";
 			}
+			cout << "\n\n\n";
 			system("pause");
 		}
 
@@ -131,7 +133,7 @@ void menu(children *listchildren[], notchild *listnotchild[], int n, int m)
 		}
 		if (g == 6)
 		{
-			cout << "\n\tInformation of list not child:";
+			cout << "\n\tInformation of Grown-up list:";
 			for (int k = 0; k < m; k++)
 			{
 				cout << "\n\t" << k + 1 << ".";
